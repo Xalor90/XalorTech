@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__Configuration", "__Configuration", "{F7791B37-21C8-46CF-8DB4-2164F5A5FAB8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{51BD4640-F253-4351-A2F8-EE0236303ECE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{2615602F-71EF-426E-A527-39C9000BCBB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{B879EECD-C8E6-4262-B043-2EECCD9CF23E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XalorTech.Web", "src\Application\XalorTech\XalorTech.Web\XalorTech.Web.csproj", "{222622A5-C839-477A-AC91-643114C4A6AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XalorTech.Web.Tests", "src\Application\XalorTech\XalorTech.Web.Tests\XalorTech.Web.Tests.csproj", "{B83FFA4E-5FF8-4981-B608-066BA2CDCD09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{222622A5-C839-477A-AC91-643114C4A6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222622A5-C839-477A-AC91-643114C4A6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222622A5-C839-477A-AC91-643114C4A6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222622A5-C839-477A-AC91-643114C4A6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83FFA4E-5FF8-4981-B608-066BA2CDCD09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83FFA4E-5FF8-4981-B608-066BA2CDCD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83FFA4E-5FF8-4981-B608-066BA2CDCD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83FFA4E-5FF8-4981-B608-066BA2CDCD09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{222622A5-C839-477A-AC91-643114C4A6AB} = {51BD4640-F253-4351-A2F8-EE0236303ECE}
+		{B83FFA4E-5FF8-4981-B608-066BA2CDCD09} = {51BD4640-F253-4351-A2F8-EE0236303ECE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26F8D011-F990-41BE-8313-DC2B45C2FC71}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
